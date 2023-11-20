@@ -1,0 +1,10 @@
+# air.toml
+root = "." # This should be the root directory of your project.
+
+[build]
+  bin = "learn-gql" # Replace with your Go binary name.
+  cmd = "go build -o learn-gql" # Replace with your build command.
+  watch = [".go$", ".html$"] # File extensions to watch for changes.
+
+[log]
+  mode = "file" # You can also set it to "console" if you prefer console output.
